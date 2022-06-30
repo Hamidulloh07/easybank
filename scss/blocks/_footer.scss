@@ -1,0 +1,158 @@
+footer{
+  background-color: #2D314D;
+}
+
+.footer {
+padding: 48px 0px;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  margin-top: 55px;
+  max-width: 154px;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+list-style: none;
+}
+
+
+.footer__icon path {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.footer__icon:hover path {
+fill: #30C88F;
+}
+
+.footer__nav {
+padding: 0;
+margin: 0;
+  margin-left:-110px;
+
+list-style: none;
+
+}
+
+.child{
+margin-left: -200px;
+
+}
+
+.child-2{
+  margin-left: -300px;
+
+}
+
+.footer__link {
+  text-decoration: none;
+  font-family: 'Public Sans';
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  color: #30C88F;
+}
+
+.footer__item-2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.footer__div-2 {
+  text-align: end;
+}
+
+.footer__button{
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 8px 36px 8px 33px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+}
+
+.footer__button:active {
+  background: linear-gradient(135deg, #00ff62 0%, #52eeff 99.58%);
+}
+
+.footer__text {
+  font-family: 'Public Sans';
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+    mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer__div {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer__div-2 {
+    text-align: center;
+    margin:  0 auto;
+  }
+
+  .footer__list{
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 320px;
+    text-align: center;
+  }
+  .footer__item {
+    margin: 0px 10px 0px 10px;
+  }
+
+  .child {
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+  .child-2 {
+    margin: 0 auto;
+  }
+
+  .footer__button {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+.section__1{
+  background-image: url(/imgs/bg-imge.png);
+  background-repeat: no-repeat;
+  background-size:  cover  ;
+  background-position: right top;
+  background-position: calc(100% + 490px) calc(50% );
+
+}
+
+.hero{
+  position: relative;
+  z-index: 1;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hero__div {
+   padding-top: 210px;
+
+width: 447px;
+}
+
+.hero__heading {
+  margin-bottom: 24px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+}
+
+.hero__text {
+  margin-bottom: 35px;
+  font-family: 'Public Sans';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.hero__link {
+  display: inline-block;
+  padding: 8px 36px 8px 33px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  text-decoration: none;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.hero__link:active {
+  background: linear-gradient(135deg, #00ff62 0%, #52eeff 99.58%);
+}
+
+
+
+.hero__img {
+  max-width: 758px;
+  width: 100%;
+  max-height: 900px;
+  height: 100%;
+  min-width: 310px;
+  min-height: 400px;
+ position: absolute;
+ right:-74px ;
+ top: -30px;
+}
+
+
+@media only screen and (max-width:1050px){
+  .hero {
+    flex-direction: column;
+  }
+
+
+  .hero__heading {
+    font-size: 43px;
+    line-height: 47px;
+  }
+
+  .hero__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .section__1{
+    background-image: url(/imgs/bg-imge.png);
+    background-repeat: no-repeat;
+    background-size: 1900px 900px ;
+    background-position: calc(50% + 200px) calc(-100% );
+  }
+  
+  .hero__div{
+    text-align: center;
+    margin-top: 450px;
+    max-width: 380px;
+    width: 100%;
+  }
+
+  .hero__img {
+    max-width: 730px;
+    width: 100%;
+    max-height: 700px;
+    height: 100%;
+    top: -160px;
+    position: absolute;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    left: 50%;
+}
+   
+}
+
+@media only screen and (max-width:335px) {
+  .hero__div {
+    margin-top: 380px;
+  }
+}
+
+@media only screen and (max-width:535px){
+   .hero__img{
+    top: -30px;
+    height: 500px;
+   }
+}
+
+
+
+
+
+
+
+
