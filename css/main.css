@@ -564,15 +564,15 @@ header {
   }
 
   .section__1 {
-    background-image: url(/imgs/bg-imge.png);
+    background-image: url(/imgs/hero-bg.png);
     background-repeat: no-repeat;
-    background-size: 1900px 900px;
+    background-size: 1900px 800px;
     background-position: calc(50% + 200px) -100%;
   }
 
   .hero__div {
     text-align: center;
-    margin-top: 450px;
+    margin-top: 350px;
     max-width: 380px;
     width: 100%;
   }
