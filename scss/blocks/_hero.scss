@@ -1,11 +1,11 @@
 
-.section__1{
-  background-image: url(/imgs/hero-bg.png);
-  background-repeat: no-repeat;
-  background-size:  cover  ;
-  background-position: calc(100% + 490px) calc(50% );
+// .section__1{
+//   background-image: url(/imgs/hero-bg.png);
+//   background-repeat: no-repeat;
+//   background-size:  cover  ;
+//   background-position: calc(100% + 490px) calc(50% );
 
-}
+// }
 
 .hero{
   position: relative;
@@ -22,6 +22,14 @@
 
 width: 447px;
 }
+
+.section__1{
+  background-image: url(/imgs/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size:  cover  ;
+  background-position: calc(100% + 490px) calc(50% );
+}
+
 
 .hero__heading {
   margin-bottom: 24px;
